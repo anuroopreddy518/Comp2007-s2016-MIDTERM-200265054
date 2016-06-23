@@ -4,7 +4,7 @@
     Author: Anuroop Reddy
     student #: 200265054
     date: June 23, 2016
-    version: 0.0.2 - Todo list
+    version: 0.1.2 - Todo list
     desc: todo list page which display all lists 
     --%>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -13,14 +13,14 @@
             <div class="col-md-offset-2 col-md-8">
                 <h1>Todo List</h1>
                 <a href="/Admin/TodoDetails.aspx" class="btn btn-success btn-sm"><i class="fa fa-plus"></i>Add Todo</a>
-
+                
                 <div>
                     <label for="PageSizeDropDownList">Records per Page: </label>
                     <asp:DropDownList ID="PageSizeDropDownList" runat="server"
                         AutoPostBack="true" CssClass="btn btn-default bt-sm dropdown-toggle"
                         OnSelectedIndexChanged="PageSizeDropDownList_SelectedIndexChanged">
                         <asp:ListItem Text="3" Value="3" />
-                        <asp:ListItem Text="5" Value="5" />
+                        <asp:ListItem Text="5" Value="5" /> 
                         <asp:ListItem Text="10" Value="10" />
                         <asp:ListItem Text="All" Value="10000" />
                     </asp:DropDownList>

@@ -3,7 +3,7 @@
     Author: Anuroop Reddy
     student #: 200265054
     date: June 23, 2016
-    version: 0.0.2 - Todo list
+    version: 0.1.2 - Todo list
     desc: todo list page which display all lists 
     --%>
 
