@@ -1,4 +1,12 @@
 ﻿<%@ Page Title="Todo Details" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TodoDetails.aspx.cs" Inherits="Comp2007_s2016_MIDTERM_200265054.TodoDetails" %>
+<%--
+    Author: Anuroop Reddy
+    student #: 200265054
+    date: June 23, 2016
+    version: 0.0.2 - Todo list
+    desc: todo list page which display all lists 
+    --%>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
      <div class="container">
         <div class="row">
