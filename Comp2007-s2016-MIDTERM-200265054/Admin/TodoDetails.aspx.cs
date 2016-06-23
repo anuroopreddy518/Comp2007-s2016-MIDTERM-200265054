@@ -100,7 +100,7 @@ namespace Comp2007_s2016_MIDTERM_200265054
                 db.SaveChanges();
 
                 // Redirect back to the updated students page
-                Response.Redirect("~/TodoList.aspx");
+                Response.Redirect("~/Admin/TodoList.aspx");
             }
         }
 
@@ -117,7 +117,7 @@ namespace Comp2007_s2016_MIDTERM_200265054
         protected void CancelButton_Click(object sender, EventArgs e)
         {
             //redirect
-            Response.Redirect("~/TodoList.aspx");
+            Response.Redirect("~/Admin/TodoList.aspx");
         }
     }
 }

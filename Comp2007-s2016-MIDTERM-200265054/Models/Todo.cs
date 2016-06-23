@@ -11,7 +11,7 @@ namespace Comp2007_s2016_MIDTERM_200265054.Models
 {
     using System;
     using System.Collections.Generic;
-
+    
     public partial class Todo
     {
         public int TodoID { get; set; }

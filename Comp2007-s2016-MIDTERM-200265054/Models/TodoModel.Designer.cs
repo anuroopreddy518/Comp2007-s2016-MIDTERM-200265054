@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\Tom\Documents\COMP2007\Comp2007_s2016_MIDTERM_200265054\Comp2007_s2016_MIDTERM_200265054\Models\TodoModel.edmx'. 
+﻿// T4 code generation is enabled for model 'c:\users\anuroop\documents\visual studio 2015\Projects\Comp2007-s2016-MIDTERM-200265054\Comp2007-s2016-MIDTERM-200265054\Models\TodoModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
