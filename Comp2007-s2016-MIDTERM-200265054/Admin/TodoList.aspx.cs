@@ -158,7 +158,16 @@ namespace Comp2007_s2016_MIDTERM_200265054
         }
 
 
-
+        /**
+         * <summary>
+         * This method sort the data
+         * </summary>
+         * 
+         * @method TodoGridView_RowDataBound
+         * @param {object} sender
+         * @param {EventArgs} e
+         * @returns {void}         
+         */
         protected void TodoGridView_RowDataBound(object sender, GridViewRowEventArgs e)
         {
             if (IsPostBack)

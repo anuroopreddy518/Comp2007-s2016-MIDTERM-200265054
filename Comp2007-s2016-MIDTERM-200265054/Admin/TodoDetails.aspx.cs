@@ -29,6 +29,16 @@ namespace Comp2007_s2016_MIDTERM_200265054
             }
         }
 
+        /**
+         * <summary>
+         * This method get all todos from database
+         * </summary>
+         * 
+         * @method GetTodos
+         * @param {object} sender
+         * @param {EventArgs} e
+         * @returns {void}         
+         */
         protected void GetTodos()
         {
             // populate form with existing data from the database

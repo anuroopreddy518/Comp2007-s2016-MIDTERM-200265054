@@ -19,6 +19,16 @@ namespace Comp2007_s2016_MIDTERM_200265054
 
         }
 
+        /**
+         * <summary>
+         * This method allows the user to log in
+         * </summary>
+         * 
+         * @method LoginButton_Click
+         * @param {object} sender
+         * @param {EventArgs} e
+         * @returns {void}         
+         */
         protected void LoginButton_Click(object sender, EventArgs e)
         {
             // create new userStore and userManager objects

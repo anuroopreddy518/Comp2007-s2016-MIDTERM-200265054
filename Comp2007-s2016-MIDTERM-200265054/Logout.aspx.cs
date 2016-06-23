@@ -14,6 +14,17 @@ namespace Comp2007_s2016_MIDTERM_200265054
 {
     public partial class Logout : System.Web.UI.Page
     {
+
+        /**
+        * <summary>
+        * This method delete all sessions and log out the user
+        * </summary>
+        * 
+        * @method Page_Load
+        * @param {object} sender
+        * @param {EventArgs} e
+        * @returns {void}         
+        */
         protected void Page_Load(object sender, EventArgs e)
         {
             // store session info and authentication methods in the authenticationManager object

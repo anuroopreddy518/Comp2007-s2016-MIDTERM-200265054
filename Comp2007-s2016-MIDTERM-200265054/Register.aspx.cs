@@ -19,6 +19,16 @@ namespace Comp2007_s2016_MIDTERM_200265054
 
         }
 
+        /**
+        * <summary>
+        * This method register a new user to the database
+        * </summary>
+        * 
+        * @method RegisterButton_Click
+        * @param {object} sender
+        * @param {EventArgs} e
+        * @returns {void}         
+        */
         protected void RegisterButton_Click(object sender, EventArgs e)
         {
             // create new userStore and userManager objects
@@ -57,6 +67,16 @@ namespace Comp2007_s2016_MIDTERM_200265054
             }
         }
 
+        /**
+        * <summary>
+        * This method cancel the event and redirect to default page
+        * </summary>
+        * 
+        * @method CancelButton_Click
+        * @param {object} sender
+        * @param {EventArgs} e
+        * @returns {void}         
+        */
         protected void CancelButton_Click(object sender, EventArgs e)
         {
             // Redirect back to the Default page

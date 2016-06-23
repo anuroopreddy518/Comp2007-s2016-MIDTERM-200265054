@@ -1,5 +1,11 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Comp2007_s2016_MIDTERM_200265054.Site" %>
-
+<%--
+    Author: Anuroop Reddy
+    student #: 200265054
+    date: June 23, 2016
+    version: 0.0.2 - Site master page
+    desc: template for the app
+    --%>
 <%@ Register Src="~/User_Controls/Navbar.ascx" TagName="Navbar" TagPrefix="bs3" %>
 <!DOCTYPE html>
 <html lang="en">
