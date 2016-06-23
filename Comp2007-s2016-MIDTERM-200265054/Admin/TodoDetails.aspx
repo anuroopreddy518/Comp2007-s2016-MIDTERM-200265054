@@ -23,8 +23,9 @@
                     <asp:TextBox runat="server" CssClass="form-control" ID="TodoNotesTextBox" placeholder="Todo Notes" required="true"></asp:TextBox>
                 </div>
                 <div class="form-group">
-                    
-                </div>
+                    <label class="control-label" for="CompletedCheckBox">Completed</label>
+                    <asp:CheckBox runat="server" Checked="false" ID="CompletedCheckBox" EnableViewState="false" OnCheckedChanged="Completed_CheckedChanged"/>
+                </div> 
                 <div class="text-right">
                     <asp:Button Text="Cancel" ID="CancelButton" CssClass="btn btn-warning btn-lg" runat="server" 
                         UseSubmitBehavior="false" CausesValidation="false" OnClick="CancelButton_Click"/>

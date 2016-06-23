@@ -47,6 +47,7 @@ namespace Comp2007_s2016_MIDTERM_200265054
                 {
                     TodoNameTextBox.Text = updatedTodo.TodoName;
                     TodoNotesTextBox.Text = updatedTodo.TodoNotes;
+                    CompletedCheckBox.Checked = updatedTodo.Completed.Value;
                 }
             }
         }
@@ -86,7 +87,7 @@ namespace Comp2007_s2016_MIDTERM_200265054
                 // add form data to the new student record
                 newTodo.TodoName = TodoNameTextBox.Text;
                 newTodo.TodoNotes = TodoNotesTextBox.Text;
-
+                newTodo.Completed = CompletedCheckBox.Checked;
 
                 // use LINQ to ADO.NET to add / insert new student into the database
 
@@ -118,6 +119,13 @@ namespace Comp2007_s2016_MIDTERM_200265054
         {
             //redirect
             Response.Redirect("~/Admin/TodoList.aspx");
+        }
+
+        protected void Completed_CheckedChanged(object sender, EventArgs e)
+        {
+            //
+            //
+
         }
     }
 }

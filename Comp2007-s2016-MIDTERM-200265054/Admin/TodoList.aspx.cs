@@ -48,7 +48,7 @@ namespace Comp2007_s2016_MIDTERM_200265054
             using (TodoConnection db = new TodoConnection())
             {
 
-                string SortString = Session["SortColumn"].ToString() + " " + Session["SortDirection"].ToString();
+                string SortString = Session["SortColumn"].ToString() + " " + Session["SortDirection"].ToString();                
 
                 // query the Todo Table using EF and LINQ
                 var Todo = (from alltodo in db.Todos
@@ -185,6 +185,11 @@ namespace Comp2007_s2016_MIDTERM_200265054
                     }
                 }
             }
+        }
+
+        protected void Completedcheckbox_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
